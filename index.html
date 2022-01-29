@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beatles</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,13 +25,20 @@
     </header>
 
     <article>
-        <section class="grid">
-            <div class="area1"><img src="./assets/img/index.jpeg" width="100%"></div>
-            <div class="area2"><iframe src="https://open.spotify.com/embed/artist/3WrFJ7ztbogyGnTHbHJFl2" width="80%" height="80%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
-            <div class="area3"><iframe width="80%" height="80%" src="https://www.youtube.com/embed/AEpZbvtiQFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+        <section class="container-fluid p-0">
+            <div class="row p-0">
+                <div class="row col-xl-12 col-xs-12 p-0"><img src="./assets/img/index.jpeg" width="100%"></div>
+            </div>
+       </section>
+        <section class="container">
+            <div class="row">
+                <div class="row col-xl-6 col-xs-12"><iframe src="https://open.spotify.com/embed/artist/3WrFJ7ztbogyGnTHbHJFl2" <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe> frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe></div>
+                <div class="row col-xl-6 col-xs-12"><iframe width="100%" src="https://www.youtube.com/embed/AEpZbvtiQFs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            </div>
         </section>
     </article>
 
     <footer><p class="footer">All rights are reserved. 2022.</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
