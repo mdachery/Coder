@@ -27,23 +27,164 @@ a:hover {
     color: #ffc400;
 }
 
+div {
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas:
+    "img1 txt1"
+    "img2 txt2"
+    "img3 txt3"
+    "img4 txt4"
+    "img5 txt5"
+    "img6 txt6"
+    "img7 txt7"
+    "img8 txt8"
+    "img9 txt9"
+    "img10 txt10"
+    "img11 txt11";
+    grid-template-columns: 30% 70%; 
+    grid-template-rows: 450px 450px 650px 450px 20px;
+    justify-items: start;
+}
+
+.img1 {
+    grid-area: img1;
+    
+}
+
+.txt1 {
+    grid-area: text1;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px;
+}
+     
+.img2 {
+    grid-area: img2;     
+}
+
+.txt2 {
+    grid-area: txt2;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px;  
+}
+
+.img3 {
+    grid-area: img3;
+}
+
+.txt3 {
+    grid-area: text3;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px;
+}
+     
+.img4 {
+    grid-area: img4;     
+}
+
+.txt4 {
+    grid-area: txt4;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px; 
+}
+
+.img5 {
+    grid-area: img5;     
+}
+
+.txt5 {
+    grid-area: txt5;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px; 
+}
+
+.img6 {
+    grid-area: img6;     
+}
+
+.txt6 {
+    grid-area: txt6;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px; 
+}
+
+.img7 {
+    grid-area: img7;     
+}
+
+.txt7 {
+    grid-area: txt7;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px; 
+}
+
+.img8 {
+    grid-area: img8;     
+}
+
+.txt8 {
+    grid-area: txt8;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px; 
+}
+
+.img9 {
+    grid-area: img9;     
+}
+
+.txt9 {
+    grid-area: txt9;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px; 
+}
+
+.img10 {
+    grid-area: img10;     
+}
+
+.txt10 {
+    grid-area: txt10;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px; 
+}
+
+.img11 {
+    grid-area: img11;     
+}
+
+.txt11 {
+    grid-area: txt11;
+    padding: 20px;
+    background-color: #1a1a1a;
+    margin: 20px; 
+}
+
+
+img {
+    width: 400px;
+}
+
 .footer {
     color: #FFFFFF;
     background-color: #1a1a1a;
     font-size: 0.8em;
     font-family: 'Roboto Mono', monospace;
     padding: 10px;
-}
-
-article {
-    display: inline-flex;
-    padding: 20px;
-}
-
-aside {
-    padding: 20px;
-    background-color: #1a1a1a;
-    margin: 20px;
 }
 
 p {

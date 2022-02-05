@@ -1,0 +1,67 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #000000;
+}
+
+.nav {
+  background-color: #1a1a1a;
+  width: 100%;
+}
+
+.menu {
+  display: inline;
+}
+
+a:link, a:visited, a:active {
+  color: #FFFFFF;
+  font-size: 1.2em;
+  text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+}
+
+a:hover {
+  color: #ffc400;
+}
+
+.footer {
+  color: #FFFFFF;
+  background-color: #1a1a1a;
+  font-size: 0.8em;
+  font-family: 'Roboto Mono', monospace;
+  padding: 10px;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "area1 area1" "area2 area3";
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
+  -ms-grid-rows: 70% 30%;
+      grid-template-rows: 70% 30%;
+  justify-items: end;
+}
+
+.area1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: area1;
+}
+
+.area2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: area2;
+}
+
+.area3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: area3;
+}
+/*# sourceMappingURL=index1.css.map */

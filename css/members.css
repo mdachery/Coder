@@ -40,7 +40,6 @@ div {
     "img2 txt2"
     "img3 txt3"
     "img4 txt4"
-    "footer footer";
     grid-template-columns: 30% 70%; 
     grid-template-rows: 450px 450px 650px 450px 20px;
     justify-items: start;
