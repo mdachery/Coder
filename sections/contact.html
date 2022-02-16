@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beatles</title>
+    <title>Contact - Beatles</title>
+    <meta name="description" content="Beatles fan page.">
+    <meta name="keywords" content="Beatles, fan, page, contact">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <nav class="nav">
-            <ul>
-                <li class="menu"><a href="../index.html">Home_ </a></li>
-                <li class="menu"><a href="./discography.html">Discography_ </a></li>
-                <li class="menu"><a href="./members.html">Members_ </a></li>
-                <li class="menu"><a href="./impact.html">Impact_ </a></li>
-                <li class="menu"><a href="./contact.html">Contact_</a></li>
-            </ul>
+        <nav class="topnav" id="myTopnav">
+            <a href="../index.html" class="active enlace">Home_&nbsp</a>
+            <a href="./discography.html" class="enlace">Discography_&nbsp</a>
+            <a href="./members.html" class="enlace">Members_&nbsp</a>
+            <a href="./impact.html" class="enlace">Impact_&nbsp</a>
+            <a href="./contact.html" class="enlace">Contact_</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
         </nav>
     </header>
 
@@ -40,5 +44,15 @@
     </article>
 
     <footer><p class="footer">All rights are reserved. 2022.</p></footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+    </script>
 </body>
 </html>
