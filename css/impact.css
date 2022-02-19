@@ -68,7 +68,6 @@ a:hover {
     grid-template-areas:
     "txt1 txt2"
     "txt3 txt4"
-    "txt5 txt6"
     justify-items: start;
 }
 
@@ -95,20 +94,6 @@ a:hover {
 
 .txt4 {
     grid-area: text4;
-    padding: 20px;
-    background-color: #1a1a1a;
-    margin: 20px;
-}
-
-.txt5 {
-    grid-area: text5;
-    padding: 20px;
-    background-color: #1a1a1a;
-    margin: 20px;
-}
-
-.txt6 {
-    grid-area: text6;
     padding: 20px;
     background-color: #1a1a1a;
     margin: 20px;

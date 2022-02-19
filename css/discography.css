@@ -83,8 +83,6 @@ div {
     "img9 txt9"
     "img10 txt10"
     "img11 txt11";
-    grid-template-columns: 30% 70%; 
-    grid-template-rows: 450px 450px 650px 450px 20px;
     justify-items: start;
 }
 
